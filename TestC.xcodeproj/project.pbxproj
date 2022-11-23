@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		659B20C128FD5702002923F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 659B20C028FD5702002923F6 /* main.m */; };
 		659B20CB28FD5792002923F6 /* scanf_gets.c in Sources */ = {isa = PBXBuildFile; fileRef = 659B20CA28FD5792002923F6 /* scanf_gets.c */; };
+		65F42950292CD8D8008D25F5 /* compound_interest.c in Sources */ = {isa = PBXBuildFile; fileRef = 65F4294F292CD8D8008D25F5 /* compound_interest.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		659B20C028FD5702002923F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		659B20C928FD5792002923F6 /* scanf_gets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = scanf_gets.h; sourceTree = "<group>"; };
 		659B20CA28FD5792002923F6 /* scanf_gets.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = scanf_gets.c; sourceTree = "<group>"; };
+		65F4294E292CD8D8008D25F5 /* compound_interest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = compound_interest.h; sourceTree = "<group>"; };
+		65F4294F292CD8D8008D25F5 /* compound_interest.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = compound_interest.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				659B20C028FD5702002923F6 /* main.m */,
 				659B20C928FD5792002923F6 /* scanf_gets.h */,
 				659B20CA28FD5792002923F6 /* scanf_gets.c */,
+				65F4294E292CD8D8008D25F5 /* compound_interest.h */,
+				65F4294F292CD8D8008D25F5 /* compound_interest.c */,
 			);
 			path = TestC;
 			sourceTree = "<group>";
@@ -124,6 +129,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65F42950292CD8D8008D25F5 /* compound_interest.c in Sources */,
 				659B20CB28FD5792002923F6 /* scanf_gets.c in Sources */,
 				659B20C128FD5702002923F6 /* main.m in Sources */,
 			);
